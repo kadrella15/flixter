@@ -4,10 +4,8 @@ class CoursesController < ApplicationController
   end
 
   def show
-    @course = Course.find(params[:id])
+    @course = Course.find(params[:id, :image])
   end
 
-  def course_params
-    params.require(:course).permit(:image)
-  end
+  
 end
