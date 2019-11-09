@@ -82,7 +82,7 @@ gem 'fog-aws'
 
 gem 'carrierwave-aws'
 
-
+gem "mini_magick"
 
 
 
